@@ -1,13 +1,91 @@
-#youtube-logo-img {
-  width: 30px;
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.header-image {
+  width: 40px;
+}
+
+.header-name {
+  font-size: 20px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
 }
 
 .search__button {
-  width: 50px;
-  height: 45px;
+  display: flex;
+  border: 1px solid gray;
+  border-left: none;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: none;
+  margin-left: 0px;
+  padding: 5px;
+  padding-right: 10px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__button > img {
+  width: 25px;
+}
+
+.search__input {
+  display: flex;
+  border: 1.2px solid gray;
+  border-right: 1px solid gray;
+  border-radius: 20px 0 0 20px;
+  font-size: 1.2rem;
+  padding-left: 12px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.header-container-icons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-icon {
+  width: 30px;
+}
+
+#header-icon--profile {
+  width: 40px;
+  border-radius: 50%;
 }

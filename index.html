@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,22 +8,50 @@
   </head>
   <body>
     <header class="header-section">
-      <div class="header-container">
-        <div class="lateral-bar-icon"></div>
+      <section class="header-container">
+        <div class="lateral-bar-icon">
+          <img src="./assets/icons/menu.svg" alt="menu-icon" />
+        </div>
         <section class="header-logo">
-          <div class="header-image"></div>
-          <div class="header-name">Youtube</div>
+          <img
+            class="header-image"
+            src="./assets/icons/youtube.svg"
+            alt="youtube-icon"
+          />
+          <div class="header-name"><strong>Youtube</strong></div>
         </section>
-      </div>
-      <section class="search-bar">
-        <input type="text" class="search__input" placeholder="Pesquisar" />
-        <button class="search__button"></button>
       </section>
-      <div class="header-container">
+      <section class="search-bar">
+        <input
+          type="text"
+          class="search__input"
+          id="id__search__input"
+          placeholder="Pesquisar"
+        />
+        <button class="search__button">
+          <img src="./assets/icons/search.svg" alt="search-icon-btn" />
+        </button>
+      </section>
+      <div class="header-container header-container-icons">
         <section class="header-icons">
-          <div class="header-icon header-icon--video"></div>
-          <div class="header-icon header-icon--notifications"></div>
-          <div class="header-icon header-icon--profile"></div>
+          <img
+            class="header-icon"
+            id="header-icon--video"
+            src="./assets/icons/video-camera.svg"
+            alt="upload-video-icon"
+          />
+          <img
+            class="header-icon"
+            id="header-icon--notifications"
+            src="./assets/icons/bell.svg"
+            alt="notification-video-icon"
+          />
+          <img
+            class="header-icon"
+            id="header-icon--profile"
+            src="./assets/images/blank-profile.png"
+            alt="profile-picture"
+          />
         </section>
       </div>
     </header>
