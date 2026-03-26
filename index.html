@@ -57,39 +57,46 @@
     </header>
 
     <main>
-      <section class="principal-video-section">
-        <div id="principal-video-content">
-          <div class="video">
-            <iframe
-              width="853"
-              height="480"
-              src="https://www.youtube.com/embed/teE5ioebK4Y?si=Z0eHcP1Mz90Gr-ly"
-              title="YouTube video player"
-              frameborder="0"
-              allow="
-                accelerometer;
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                gyroscope;
-                picture-in-picture;
-                web-share;
-              "
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <section class="video-info">
-            <h1 class="video-title">
-              Testes Automatizados com Java e IA: Do Código à Qualidade
-            </h1>
-            <section class="video-channel">
-              <img src="" alt="" class="video-channel-image" />
-              <div class="video-channel-info">
-                <h2 class="video-channel-name">DIO</h2>
-                <h4 class="video-channel-subscriptions">132 mil inscritos</h4>
-              </div>
-              <button class="video-channel-subscribe">Inscrever-se</button>
+      <section class="main-page-content">
+        <section class="principal-video-section">
+          <div id="principal-video-content">
+            <div class="video">
+              <iframe
+                id="principal-video-media"
+                src="https://www.youtube.com/embed/teE5ioebK4Y?si=Z0eHcP1Mz90Gr-ly"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+
+              <h1 class="video-title">
+                Testes Automatizados com Java e IA: Do Código à Qualidade
+              </h1>
+            </div>
+            <section class="video-info">
+              <section class="video-channel-container">
+                <img
+                  src="./assets/images/blank-profile.png"
+                  alt=""
+                  class="video-channel-image"
+                />
+                <div class="video-channel-section">
+                  <h2 class="video-channel-name">DIO</h2>
+                  <h4 class="video-channel-subscriptions">132 mil inscritos</h4>
+                </div>
+
+                <button class="video-channel-subscribe">Inscrever-se</button>
+              </section>
               <div class="opinion-about-video">
                 <img src="" alt="" id="Like-button" />
                 <img src="" alt="" id="Dislike-button" />
@@ -98,113 +105,163 @@
               <span>Compartilhar</span>
               <img src="" alt="" class="download-video" />
               <span>Download</span>
+              <section class="video-stats">
+                <h4>28.428 visualizações</h4>
+                <h4>Transmitido ao vivo em 17 de nov. de 2025</h4>
+              </section>
+              <section class="video-description">
+                <p>
+                  Explore as melhores práticas para implementar testes
+                  automatizados em Java, com o apoio de Inteligência Artificial,
+                  para garantir a qualidade e a robustez do seu código.
+                </p>
+                <p>Expert: Thiago Rafael Ferreira</p>
+                <p>
+                  Linkedin:
+                  <a
+                    href="https://www.linkedin.com/in/thiago-rafael-ferreira-br/"
+                    >Thiago Rafael Ferreira</a
+                  >
+                </p>
+              </section>
             </section>
-            <section class="video-stats">
-              <h4>28.428 visualizações</h4>
-              <h4>Transmitido ao vivo em 17 de nov. de 2025</h4>
+          </div>
+        </section>
+        <section class="recommended-video-section">
+          <section class="recommended-videos">
+            <section class="recommended-video-container">
+              <div class="video-image-container">
+                <img
+                  src="./assets/images/07785896799f7d106fa23e01cdd29dd12e77868e.png"
+                  alt="video-thumbnail"
+                  class="video-image"
+                />
+              </div>
+              <div class="video-details-container">
+                <h2 class="title-recommended-video">Teste</h2>
+                <h3 class="channel-recommended-video">DIO</h3>
+                <h4 class="stats-recommended-video">
+                  <span id="views-stats-recommended-video"
+                    >2,1 mil visualizações</span
+                  >
+                  <span id="transmission-date-recommended-video"
+                    >Transmitido há 2 dias</span
+                  >
+                </h4>
+              </div>
             </section>
-            <section class="video-description">
-              <p>
-                Explore as melhores práticas para implementar testes
-                automatizados em Java, com o apoio de Inteligência Artificial,
-                para garantir a qualidade e a robustez do seu código.
-              </p>
-              <p>Expert: Thiago Rafael Ferreira</p>
-              <p>
-                Linkedin:
-                <a href="https://www.linkedin.com/in/thiago-rafael-ferreira-br/"
-                  >Thiago Rafael Ferreira</a
-                >
-              </p>
+            <section class="recommended-video-container">
+              <div class="video-image-container">
+                <img
+                  src="./assets/images/f5f7bd5b08653a7b86205406e7b61d2d04b6a969.png"
+                  alt="video-thumbnail"
+                  class="video-image"
+                />
+              </div>
+              <div class="video-details-container">
+                <h2 class="title-recommended-video">Teste</h2>
+                <h3 class="channel-recommended-video">DIO</h3>
+                <h4 class="stats-recommended-video">
+                  <span class="views-stats-recommended-video"
+                    >2,1 mil visualizações</span
+                  >
+                  <br />
+                  <span class="transmission-date-recommended-video"
+                    >Transmitido há 2 dias</span
+                  >
+                </h4>
+              </div>
+            </section>
+            <section class="recommended-video-container">
+              <div class="video-image-container">
+                <img
+                  src="./assets/images/0e5dbcf5a4517af358672fc9b1abddb2fe5faf42.png"
+                  alt="video-thumbnail"
+                  class="video-image"
+                />
+              </div>
+              <div class="video-details-container">
+                <h2 class="title-recommended-video">Teste</h2>
+                <h3 class="channel-recommended-video">DIO</h3>
+                <h4 class="stats-recommended-video">
+                  <span class="views-stats-recommended-video"
+                    >2,1 mil visualizações</span
+                  >
+                  <br />
+                  <span class="transmission-date-recommended-video"
+                    >Transmitido há 2 dias</span
+                  >
+                </h4>
+              </div>
+            </section>
+            <section class="recommended-video-container">
+              <div class="video-image-container">
+                <img
+                  src="./assets/images/df40e5a13c31408bfbba041512d82157cb9e1c91.png"
+                  alt="video-thumbnail"
+                  class="video-image"
+                />
+              </div>
+              <div class="video-details-container">
+                <h2 class="title-recommended-video">Teste</h2>
+                <h3 class="channel-recommended-video">DIO</h3>
+                <h4 class="stats-recommended-video">
+                  <span class="views-stats-recommended-video"
+                    >2,1 mil visualizações</span
+                  >
+                  <br />
+                  <span class="transmission-date-recommended-video"
+                    >Transmitido há 2 dias</span
+                  >
+                </h4>
+              </div>
+            </section>
+            <section class="recommended-video-container">
+              <div class="video-image-container">
+                <img
+                  src="./assets/images/0e5dbcf5a4517af358672fc9b1abddb2fe5faf42.png"
+                  alt="video-thumbnail"
+                  class="video-image"
+                />
+              </div>
+              <div class="video-details-container">
+                <h2 class="title-recommended-video">Teste</h2>
+                <h3 class="channel-recommended-video">DIO</h3>
+                <h4 class="stats-recommended-video">
+                  <span class="views-stats-recommended-video"
+                    >2,1 mil visualizações</span
+                  >
+                  <br />
+                  <span class="transmission-date-recommended-video"
+                    >Transmitido há 2 dias</span
+                  >
+                </h4>
+              </div>
+            </section>
+            <section class="recommended-video-container">
+              <div class="video-image-container">
+                <img
+                  src="./assets/images/07785896799f7d106fa23e01cdd29dd12e77868e.png"
+                  alt="video-thumbnail"
+                  class="video-image"
+                />
+              </div>
+              <div class="video-details-container">
+                <h2 class="title-recommended-video">Teste</h2>
+                <h3 class="channel-recommended-video">DIO</h3>
+                <h4 class="stats-recommended-video">
+                  <span class="views-stats-recommended-video"
+                    >2,1 mil visualizações</span
+                  >
+                  <br />
+                  <span class="transmission-date-recommended-video"
+                    >Transmitido há 2 dias</span
+                  >
+                </h4>
+              </div>
             </section>
           </section>
-          <aside class="recommended-videos">
-            <section class="recommended-video-container">
-              <div class="video-image-container">
-                <img src="" alt="" class="video-image" />
-              </div>
-              <div class="video-details-container">
-                <h2 class="title-recommended-video">Teste</h2>
-                <h3 class="channel-recommended-video">DIO</h3>
-                <h4 class="stats-recommended-video">
-                  2,1 mil visualizações
-                  <br />
-                  Transmitido há 2 dias
-                </h4>
-              </div>
-            </section>
-            <section class="recommended-video-container">
-              <div class="video-image-container">
-                <img src="" alt="" class="video-image" />
-              </div>
-              <div class="video-details-container">
-                <h2 class="title-recommended-video">Teste</h2>
-                <h3 class="channel-recommended-video">DIO</h3>
-                <h4 class="stats-recommended-video">
-                  2,1 mil visualizações
-                  <br />
-                  Transmitido há 2 dias
-                </h4>
-              </div>
-            </section>
-            <section class="recommended-video-container">
-              <div class="video-image-container">
-                <img src="" alt="" class="video-image" />
-              </div>
-              <div class="video-details-container">
-                <h2 class="title-recommended-video">Teste</h2>
-                <h3 class="channel-recommended-video">DIO</h3>
-                <h4 class="stats-recommended-video">
-                  2,1 mil visualizações
-                  <br />
-                  Transmitido há 2 dias
-                </h4>
-              </div>
-            </section>
-            <section class="recommended-video-container">
-              <div class="video-image-container">
-                <img src="" alt="" class="video-image" />
-              </div>
-              <div class="video-details-container">
-                <h2 class="title-recommended-video">Teste</h2>
-                <h3 class="channel-recommended-video">DIO</h3>
-                <h4 class="stats-recommended-video">
-                  2,1 mil visualizações
-                  <br />
-                  Transmitido há 2 dias
-                </h4>
-              </div>
-            </section>
-            <section class="recommended-video-container">
-              <div class="video-image-container">
-                <img src="" alt="" class="video-image" />
-              </div>
-              <div class="video-details-container">
-                <h2 class="title-recommended-video">Teste</h2>
-                <h3 class="channel-recommended-video">DIO</h3>
-                <h4 class="stats-recommended-video">
-                  2,1 mil visualizações
-                  <br />
-                  Transmitido há 2 dias
-                </h4>
-              </div>
-            </section>
-            <section class="recommended-video-container">
-              <div class="video-image-container">
-                <img src="" alt="" class="video-image" />
-              </div>
-              <div class="video-details-container">
-                <h2 class="title-recommended-video">Teste</h2>
-                <h3 class="channel-recommended-video">DIO</h3>
-                <h4 class="stats-recommended-video">
-                  2,1 mil visualizações
-                  <br />
-                  Transmitido há 2 dias
-                </h4>
-              </div>
-            </section>
-          </aside>
-        </div>
+        </section>
       </section>
     </main>
   </body>
